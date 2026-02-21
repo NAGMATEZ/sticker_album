@@ -1,5 +1,6 @@
 // Animal data for the sticker album
-// Using public domain / placeholder images via picsum
+// Animal illustrations: Twemoji by Twitter, Inc (CC-BY 4.0)
+// https://github.com/twitter/twemoji
 const ANIMALS = [
   {
     id: 1,
@@ -7,7 +8,7 @@ const ANIMALS = [
     emoji: "🦁",
     fact: "Lions are the only cats that live in groups, called prides.",
     color: "#F4A460",
-    image: "https://picsum.photos/seed/lion/200/200",
+    image: "/images/lion.svg",
   },
   {
     id: 2,
@@ -15,7 +16,7 @@ const ANIMALS = [
     emoji: "🐘",
     fact: "Elephants are the largest land animals on Earth.",
     color: "#A9A9A9",
-    image: "https://picsum.photos/seed/elephant/200/200",
+    image: "/images/elephant.svg",
   },
   {
     id: 3,
@@ -23,7 +24,7 @@ const ANIMALS = [
     emoji: "🦒",
     fact: "Giraffes have the same number of neck vertebrae as humans — just 7!",
     color: "#DAA520",
-    image: "https://picsum.photos/seed/giraffe/200/200",
+    image: "/images/giraffe.svg",
   },
   {
     id: 4,
@@ -31,7 +32,7 @@ const ANIMALS = [
     emoji: "🐧",
     fact: "Penguins can't fly, but they are excellent swimmers.",
     color: "#4169E1",
-    image: "https://picsum.photos/seed/penguin/200/200",
+    image: "/images/penguin.svg",
   },
   {
     id: 5,
@@ -39,7 +40,7 @@ const ANIMALS = [
     emoji: "🐯",
     fact: "No two tigers have the same stripe pattern.",
     color: "#FF8C00",
-    image: "https://picsum.photos/seed/tiger/200/200",
+    image: "/images/tiger.svg",
   },
   {
     id: 6,
@@ -47,7 +48,7 @@ const ANIMALS = [
     emoji: "🦓",
     fact: "A zebra's stripes are as unique as a human fingerprint.",
     color: "#708090",
-    image: "https://picsum.photos/seed/zebra/200/200",
+    image: "/images/zebra.svg",
   },
   {
     id: 7,
@@ -55,7 +56,7 @@ const ANIMALS = [
     emoji: "🦜",
     fact: "Parrots are among the most intelligent birds in the world.",
     color: "#32CD32",
-    image: "https://picsum.photos/seed/parrot/200/200",
+    image: "/images/parrot.svg",
   },
   {
     id: 8,
@@ -63,7 +64,7 @@ const ANIMALS = [
     emoji: "🐬",
     fact: "Dolphins sleep with one eye open to stay alert.",
     color: "#00BFFF",
-    image: "https://picsum.photos/seed/dolphin/200/200",
+    image: "/images/dolphin.svg",
   },
   {
     id: 9,
@@ -71,7 +72,7 @@ const ANIMALS = [
     emoji: "🐨",
     fact: "Koalas sleep up to 22 hours a day to conserve energy.",
     color: "#9370DB",
-    image: "https://picsum.photos/seed/koala/200/200",
+    image: "/images/koala.svg",
   },
   {
     id: 10,
@@ -79,7 +80,7 @@ const ANIMALS = [
     emoji: "🦊",
     fact: "Foxes use the Earth's magnetic field to hunt prey.",
     color: "#FF6347",
-    image: "https://picsum.photos/seed/fox/200/200",
+    image: "/images/fox.svg",
   },
   {
     id: 11,
@@ -87,7 +88,7 @@ const ANIMALS = [
     emoji: "🦉",
     fact: "Owls can rotate their heads up to 270 degrees.",
     color: "#8B4513",
-    image: "https://picsum.photos/seed/owl/200/200",
+    image: "/images/owl.svg",
   },
   {
     id: 12,
@@ -95,7 +96,7 @@ const ANIMALS = [
     emoji: "🐼",
     fact: "Giant pandas spend 10–16 hours a day eating bamboo.",
     color: "#2E8B57",
-    image: "https://picsum.photos/seed/panda/200/200",
+    image: "/images/panda.svg",
   },
   {
     id: 13,
@@ -103,7 +104,7 @@ const ANIMALS = [
     emoji: "🐆",
     fact: "Cheetahs are the fastest land animals, reaching 70 mph.",
     color: "#CD853F",
-    image: "https://picsum.photos/seed/cheetah/200/200",
+    image: "/images/cheetah.svg",
   },
   {
     id: 14,
@@ -111,7 +112,7 @@ const ANIMALS = [
     emoji: "🦩",
     fact: "Flamingos are pink because of the pigments in their food.",
     color: "#FF69B4",
-    image: "https://picsum.photos/seed/flamingo/200/200",
+    image: "/images/flamingo.svg",
   },
   {
     id: 15,
@@ -119,7 +120,7 @@ const ANIMALS = [
     emoji: "🦍",
     fact: "Gorillas share 98.3% of their DNA with humans.",
     color: "#696969",
-    image: "https://picsum.photos/seed/gorilla/200/200",
+    image: "/images/gorilla.svg",
   },
   {
     id: 16,
@@ -127,7 +128,7 @@ const ANIMALS = [
     emoji: "🦎",
     fact: "Chameleons change color to communicate, not just camouflage.",
     color: "#7CFC00",
-    image: "https://picsum.photos/seed/chameleon/200/200",
+    image: "/images/chameleon.svg",
   },
   {
     id: 17,
@@ -135,7 +136,7 @@ const ANIMALS = [
     emoji: "🐋",
     fact: "Blue whales are the largest animals ever known to exist.",
     color: "#1E90FF",
-    image: "https://picsum.photos/seed/whale/200/200",
+    image: "/images/whale.svg",
   },
   {
     id: 18,
@@ -143,7 +144,7 @@ const ANIMALS = [
     emoji: "🐺",
     fact: "Wolves howl to communicate with their pack across distances.",
     color: "#778899",
-    image: "https://picsum.photos/seed/wolf/200/200",
+    image: "/images/wolf.svg",
   },
   {
     id: 19,
@@ -151,7 +152,7 @@ const ANIMALS = [
     emoji: "🦌",
     fact: "Male deer grow new antlers every year.",
     color: "#D2691E",
-    image: "https://picsum.photos/seed/deer/200/200",
+    image: "/images/deer.svg",
   },
   {
     id: 20,
@@ -159,7 +160,7 @@ const ANIMALS = [
     emoji: "🦚",
     fact: "Only male peacocks have the colorful tail feathers.",
     color: "#008080",
-    image: "https://picsum.photos/seed/peacock/200/200",
+    image: "/images/peacock.svg",
   },
 ];
 
